@@ -1,0 +1,23 @@
+
+
+
+class p
+{
+	
+	String s="Parent variable";
+	
+}
+
+class c extends p
+{
+	
+	 String s="child variable";
+	
+
+
+public void main(String[] args)
+{
+	
+	System.out.println(this.s);
+}
+}

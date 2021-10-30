@@ -1,0 +1,27 @@
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Oyo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\eikamum\\Desktop\\chromedriver.exe");
+		WebDriver driver = new ChromeDriver();
+
+		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+
+		driver.get("https://www.oyorooms.com/");
+		
+		driver.findElement(By.xpath("//div[@data-cms-template='cWeb-Search']/div[4]/button")).click();
+		
+		WebElement hotels=driver.findElement(By.xpath("//div[@class='oyo-row oyo-row--no-spacing ListingHotelCardWrapper']/div[3]/div/div[2]/div/div/div[2]/div/a/h3"));
+		
+
+	}
+
+}

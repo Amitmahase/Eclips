@@ -1,0 +1,35 @@
+package Questions;
+
+import java.util.Scanner;
+
+public class VowelAndConsonent {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Scanner s=new Scanner(System.in);
+		
+		s.next();
+		
+		
+		
+		System.out.println("enter the char");
+		
+		String s="aeiou";
+		
+		for(int i=0; i<s.length();i++)
+		{
+			
+			s.charAt(i);
+			
+			
+			
+		}
+			
+			
+			
+		
+
+	}
+
+}

@@ -1,0 +1,46 @@
+import java.util.HashMap;
+import java.util.Map;
+
+public class Repeatationchar {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		String s="I am learning java java learning";
+		
+		
+		
+		String arr[]=s.split(" ");
+		
+		Map<String, Integer> map=new HashMap<String, Integer>();
+		
+		int count=1;
+		
+		for(int i=0;i<arr.length;i++)
+		{	
+			if(!map.containsKey(arr[i]))
+			{
+				
+				map.put(arr[i], count);
+			}
+			
+			else
+			{
+				map.put(arr[i], map.get(arr[i]+1));
+			}
+			
+			for(String x:map.keySet())
+				{
+					System.out.println("The count of word :" +x+"=" + map.get(x));
+				}
+				
+			}
+			
+		
+		
+		
+		
+
+	}
+
+}

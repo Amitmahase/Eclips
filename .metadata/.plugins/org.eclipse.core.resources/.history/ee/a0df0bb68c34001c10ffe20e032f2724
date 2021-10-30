@@ -1,0 +1,28 @@
+package apna;
+
+class MethodOverloading
+{
+	
+	String s;
+	int a;
+	
+	public void m1(String s, int a)
+	{
+		
+		System.out.println("i am method starting with string");
+	}
+	
+	
+	public void m1( int a, String s)
+	{
+		
+		System.out.println("i am method starting with int");
+	}
+	
+	
+	MethodOverloading mo=new MethodOverloading();
+	
+	
+	
+}
+	

@@ -1,0 +1,19 @@
+package MAxtwonoinArray;
+
+import java.util.Arrays;
+
+public class MAxTwoNumber {
+
+	public static void main(String[] args) {
+
+		
+		
+	String s="i am a software engineer  ";
+	
+	s=s.trim();
+	
+	
+		
+		
+}
+}

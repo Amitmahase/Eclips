@@ -1,0 +1,36 @@
+package OOPS;
+
+public class DuplicateChar {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+
+
+public static void printDuplicateChars(String str)
+
+{
+	
+	if (str==null)
+	{
+		
+		System.out.println("Null String");
+		return;
+	}
+	
+	if (str.length()==1)
+	{
+		
+		System.out.println("only 1 char is there");
+		return;
+	}
+	
+	if(str.isEmpty())
+	{
+		
+		System.out.println("Empty string");
+		return;
+	}
+	

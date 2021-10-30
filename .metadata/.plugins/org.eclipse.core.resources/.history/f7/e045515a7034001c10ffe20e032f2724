@@ -1,0 +1,37 @@
+public class Test
+{
+	String s="I am parent";
+	public void student()
+	{
+		System.out.println("method");
+		
+	}
+	
+}
+
+
+ class exam extends Test
+{
+	 String s="I am child";
+	public void study() {
+		
+		System.out.println("study to pass");
+		System.out.println(super.s);
+		System.out.println(this.s);
+		System.out.println(s);
+		
+	}
+	 
+	
+	
+	public static void main(String[] args)
+	{
+		
+		
+		
+		
+		
+	}
+}
+ 
+ 

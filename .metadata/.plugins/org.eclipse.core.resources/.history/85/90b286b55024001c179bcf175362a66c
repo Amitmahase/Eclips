@@ -1,0 +1,30 @@
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.Select;
+
+public class Spice {
+
+	public static void main(String[] args) throws InterruptedException {
+		// TODO Auto-generated method stub
+		
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\eikamum\\Desktop\\chromedriver.exe");
+		
+		WebDriver driver=new ChromeDriver();
+		driver.get("https://www.rahulshettyacademy.com/AutomationPractice/");
+		
+		Select s=new Select(driver.findElement(By.id("dropdown-class-example")));
+		Thread.sleep(2000);
+		
+		s.selectByVisibleText("Option2");
+		Thread.sleep(2000);
+		s.selectByIndex(2);
+		
+		
+		
+		
+
+	}
+
+}

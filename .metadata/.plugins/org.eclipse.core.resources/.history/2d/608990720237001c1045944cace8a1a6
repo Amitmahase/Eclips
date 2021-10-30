@@ -1,0 +1,28 @@
+package MAxtwonoinArray;
+
+import java.util.Arrays;
+
+
+
+public class MAxTwoNumber {
+
+	public static void main(String[] args) {
+
+		
+	char c='&';
+	
+
+	if((c>='a' && c<='z') || (c>='A' && c<='Z'))
+	{
+	
+		System.out.println("the chat is an alphabate");
+	
+	}
+	
+	else
+	{
+		System.out.println("this is not an alphabate");
+	}
+}
+
+}

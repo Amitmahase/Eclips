@@ -1,0 +1,37 @@
+package apna;
+
+class Parent
+{
+
+int a;
+String name;
+
+public void m1(int a, String name)
+
+{
+
+
+
+
+}
+
+public void m1( String name, int a)
+
+{
+
+
+
+}
+
+public static void main(String[] args)
+
+{
+
+parent p=new parent(10,"anil");
+
+parent p=new parent("anil", 20);
+
+}
+
+}
+

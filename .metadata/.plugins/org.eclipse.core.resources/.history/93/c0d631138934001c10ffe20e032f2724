@@ -1,0 +1,10 @@
+package apna;
+
+public class New implements Interface{
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

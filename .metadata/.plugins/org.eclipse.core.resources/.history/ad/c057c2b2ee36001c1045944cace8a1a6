@@ -1,0 +1,28 @@
+package MAxtwonoinArray;
+
+import java.util.Arrays;
+
+public class MAxTwoNumber {
+
+	public static void main(String[] args) {
+
+		
+		
+		int arr[]= {2,4,6,7,9,11};
+		
+		int out=9;
+		
+		for(int i=0;i<arr.length;i++)
+		{
+			if(arr[i]==out)
+			{
+				
+				System.out.println("eement found at " + i+ "th position"+ arr[i]);
+				break;
+			}
+			
+		}
+
+		
+}
+}

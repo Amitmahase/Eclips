@@ -1,0 +1,35 @@
+class a {
+
+	
+			
+			String s="parent variable";
+			
+		}
+		
+class C extends a
+		{
+			
+			String s="child variable";
+			
+			public void m1()
+			{
+				
+				System.out.println(s);
+			}
+class a
+{
+	
+			public void main(String[] args)
+			{
+				C c1=new C();
+				
+				c1.m1();
+			}
+			
+			
+			
+		}
+
+	}
+
+

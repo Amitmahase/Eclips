@@ -1,0 +1,13 @@
+
+public class Repeatationchar {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		String s="I am learning java java learning";
+		
+		s=s.replaceAll("[0-9A-Za-z]", "");
+
+	}
+
+}

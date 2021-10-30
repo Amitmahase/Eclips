@@ -1,0 +1,22 @@
+
+public class Paaa {
+	
+	
+	
+	String S="Parents variable";
+	
+}
+
+class caa extends Paaa
+{
+	
+	
+	Strjnf S="Child variable";
+	
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

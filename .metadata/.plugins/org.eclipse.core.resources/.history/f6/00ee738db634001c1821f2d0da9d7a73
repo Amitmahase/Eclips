@@ -1,0 +1,57 @@
+package apna;
+
+
+class Methodoverridding {
+	
+	int a; 
+	String b;
+	
+	
+	public void work(int a, String b)
+	{
+		System.out.println("m1 method");
+		
+	}
+	
+	
+	
+}
+	
+class Methodover {
+	
+	int a; 
+	String b;
+	
+	
+	public void work(int a, String b)
+	{
+		System.out.println("m2 method");
+		
+	}
+}
+	
+	
+	
+	
+	
+	class run
+	{
+		
+		public static void main(String[] args)
+		{
+			
+			Methodover m=new Methodover();
+			
+			m.work(10, "ajiej");
+			
+			
+		}
+		
+	}
+	
+	
+
+	// {
+		// TODO Auto-generated method stub
+
+

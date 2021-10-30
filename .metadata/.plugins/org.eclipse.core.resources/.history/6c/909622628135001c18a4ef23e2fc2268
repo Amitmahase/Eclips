@@ -1,0 +1,16 @@
+import org.openqa.selenium.WebDriver;
+
+public class Google {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\eikamum\\Desktop\\chrome.driver.exe");
+		
+		ChromeDriver driver=new ChromeDriver();
+		
+		
+
+	}
+
+}

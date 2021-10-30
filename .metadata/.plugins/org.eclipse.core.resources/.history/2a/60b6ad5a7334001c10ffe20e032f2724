@@ -1,0 +1,19 @@
+public class Test
+{
+	
+	Test()
+	{
+		
+		System.out.println("constructor");
+		
+	}
+	
+	
+	
+	public static void main(String[] args)
+	{
+		Test t=new Test();
+		
+	}
+}
+

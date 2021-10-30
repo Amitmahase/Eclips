@@ -1,0 +1,36 @@
+class SuperAndThis {
+
+	//public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		
+			
+			String s="parent variable";
+			
+		}
+		
+class C extends SuperAndThis
+		{
+			
+			String s="child variable";
+			
+			public void m1()
+			{
+				
+				System.out.println(s);
+			}
+			
+			public void main(String[] args)
+			{
+				C c1=new C();
+				
+				c1.m1();
+			}
+			
+			
+			
+		}
+
+	}
+
+}

@@ -1,0 +1,43 @@
+
+public class Dupli {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		
+		String s="animation";
+		
+		char arr[]=s.toCharArray();
+		
+		int count;
+		
+		System.out.println("the repeatativr chars are");
+		for(int i=0;i<arr.length;i++)
+		{
+			count=1;
+			
+			for(int j=1+i;j<arr.length;j++)
+			{
+				if (arr[i]==arr[j] && arr[i]==' ')
+				{
+					
+					count++;
+					
+					
+				}
+				
+				
+			}
+			
+			if (count>1 && arr[i] !='0')
+			{
+				
+				System.out.println(arr[i]);
+			}
+			
+		}
+		
+
+	}
+
+}

@@ -1,0 +1,9 @@
+05:41:14.931 [main] ERROR beta.Demo1 - object is not present1
+05:41:41.055 [main] DEBUG beta.Demo1 - I am debugging
+05:41:41.058 [main] INFO  beta.Demo1 - Object is present1
+05:41:41.058 [main] DEBUG beta.Demo1 - Object is present1
+05:41:41.058 [main] FATAL beta.Demo1 - This is fatle1
+05:41:41.059 [main] ERROR beta.Demo1 - object is not present1
+05:42:10.163 [main] DEBUG alpha.Demo - I am debugging
+05:42:10.167 [main] INFO  alpha.Demo - Object is present
+05:42:10.167 [main] DEBUG alpha.Demo - Object is present

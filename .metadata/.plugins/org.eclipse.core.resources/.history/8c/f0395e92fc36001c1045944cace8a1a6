@@ -1,0 +1,22 @@
+package MAxtwonoinArray;
+
+import java.util.Arrays;
+
+public class MAxTwoNumber {
+
+	public static void main(String[] args) {
+
+		
+	int a=-10;
+	
+	int neg=-1;
+	
+	if(a*neg>0)
+	{
+		
+		System.out.println("The no. is neg");
+	}
+	else
+		System.out.println("the no. is positive" + a);
+}
+}

@@ -1,0 +1,23 @@
+class Parent
+{
+	String s="parent";
+	
+}
+
+class Child extends Parent
+{
+	String s="parent";
+	
+}
+
+
+
+public class Run {
+	
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

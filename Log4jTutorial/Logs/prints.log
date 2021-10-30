@@ -1,0 +1,8 @@
+05:42:10.167 [main] FATAL alpha.Demo - This is fatle
+05:42:10.178 [main] ERROR alpha.Demo - object is not present
+05:57:14.811 [main] INFO  alpha.OyoHotels - Opened the link
+05:57:15.262 [main] INFO  alpha.OyoHotels - searching in bangalore
+05:57:18.166 [main] INFO  alpha.OyoHotels - Serching for specific hotel
+06:00:19.980 [main] INFO  alpha.OyoHotels - Opened the link
+06:00:20.248 [main] INFO  alpha.OyoHotels - serching in bangalore
+06:00:23.289 [main] INFO  alpha.OyoHotels - Serching for specific hotel

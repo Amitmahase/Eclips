@@ -1,0 +1,29 @@
+package Encapsulation;
+
+public class Employee {
+	
+	private int emp_id;
+	
+	public void setEmpId(int eid)
+	{
+		
+		emp_id=eid;
+	}
+
+	public int getEmpID()
+	{
+		return emp_id;
+	}
+	
+	public static void main (String[] args)
+	{
+		
+		Employee E1=new Employee();
+				
+			E1.setEmpId(11111);
+			System.out.println(E1.getEmpID());
+			
+			
+				
+	}
+}

@@ -1,0 +1,29 @@
+public class ani
+		{
+			
+			String S="Parent variable";
+			
+		}
+
+	class C extends ani
+		{
+			
+			String S="Child variable";
+			
+			public void mde()
+			{
+				
+				System.out.println(S);
+			}
+			
+			
+			public static void main(String[] args)
+			{
+				
+				C c1=new C();
+				
+				c1.mde();
+			}
+			
+	
+}

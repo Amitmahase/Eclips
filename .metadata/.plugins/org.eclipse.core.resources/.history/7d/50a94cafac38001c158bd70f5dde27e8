@@ -1,0 +1,33 @@
+import java.util.HashMap;
+import java.util.Map;
+
+public class Repeatationchar {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		String s = "I am learning java java learning";
+
+		String [] words = s.split(" ");
+
+		Map<String, Integer> hm=new HashMap<String, Integer>();
+		for(String w:words)
+			
+		{
+			
+			if(hm.get(w)==null)
+			{
+			hm.put(w, 1);
+			}
+			else
+			{
+				hm.put(w, hm.get(w)+1);
+			}
+			
+		}
+		System.out.println(hm);
+	
+		
+	}
+
+}

@@ -1,0 +1,20 @@
+package MAxtwonoinArray;
+
+import java.util.Arrays;
+
+public class MAxTwoNumber {
+
+	public static void main(String[] args) {
+
+		
+		
+	String s="i love java";
+	String words[]=s.split(" ");
+	
+	
+		String reversestring ="";
+		
+		System.out.println(Arrays.toString(words));
+		
+}
+}

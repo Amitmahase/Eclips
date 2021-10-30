@@ -1,0 +1,22 @@
+class p
+{
+	
+	String s="parent class";
+}
+
+class c extends p
+{
+	
+	String s="Child class";
+}
+
+
+class run
+{
+	
+	public static void main(String[] args)
+	{
+		p pa=new p();
+		System.out.println(pa.s);
+	}
+}

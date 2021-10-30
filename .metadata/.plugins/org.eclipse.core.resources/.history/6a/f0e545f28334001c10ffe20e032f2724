@@ -1,0 +1,20 @@
+class Parent
+{
+	
+	Parent()
+	{
+		
+		System.out.println("parent cunstroctor");
+	}
+}
+
+
+class hild
+{
+	
+	Child()
+	{
+		
+		System.out.println("child cunstrocter");
+	}
+}

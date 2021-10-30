@@ -1,0 +1,17 @@
+
+public class India {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		String s="India";
+		String s="adf";
+		
+		//StringBuffer sb =new StringBu(s);
+		System.out.println(s);
+		
+		
+	}
+
+}

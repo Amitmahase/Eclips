@@ -1,0 +1,32 @@
+class ani
+		{
+			
+			String S="Parent variable";
+			
+		}
+
+class Caa extends ani
+		{
+			
+			String S="Child variable";
+			
+		public void mde()
+			{
+				
+				System.out.println(S);
+				System.out.println(this.S);
+				System.out.println(super.S);
+			}
+			
+			
+			public static void main(String[] args)
+			{
+				
+				Caa c1=new Caa();
+				
+				c1.mde();
+		}
+		
+			
+	
+}

@@ -1,0 +1,10 @@
+
+public class DuplicateCharacters {  
+    public static void main(String[] args) {  
+       String string1 = "Alice is girl and Bob is boy";  
+        
+         
+      
+   
+}  
+}

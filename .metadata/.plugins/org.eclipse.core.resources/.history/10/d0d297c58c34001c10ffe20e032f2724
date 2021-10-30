@@ -1,0 +1,44 @@
+package apna;
+
+class run
+{
+	
+	
+	String s;
+	int a;
+	
+	
+	public void m1(String s, int a)
+	{
+		
+		System.out.println("i am method starting with string");
+	}
+	
+	
+	public void m1( int a, String s)
+	{
+		
+		System.out.println("i am method starting with int");
+	}
+	
+}
+	
+
+class run
+{
+
+	public static void main(String[] args)
+	{
+		
+	MethodOverloading mo=new MethodOverloading();
+	mo.m1(10, "deeg");
+	mo.m1("fefgr", 100);
+	
+	
+	}
+	
+
+}}
+	
+}
+	
