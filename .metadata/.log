@@ -6613,3 +6613,9 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
   Class:     org.testng.remote.RemoteTestNG
   Args:      -serport 51176 -protocol json -d C:\Users\eikamum\eclipse-workspace\Revesion\test-output C:\Users\eikamum\eclipse-workspace\Revesion\testng.xml
 java -ea -classpath C:\Users\eikamum\eclipse\java-2021-06\eclipse\configuration\org.eclipse.osgi\440\0\.cp\lib\testng-remote.jar:C:\Users\eikamum\eclipse-workspace\Revesion\bin:C:\Users\eikamum\Desktop\PY\selenium-java-3.141.59\libs\byte-buddy-1.8.15.jar:C:\Users\eikamum\Desktop\PY\selenium-java-3.141.59\libs\commons-exec-1.3.jar:C:\Users\eikamum\Desktop\PY\selenium-java-3.141.59\libs\guava-25.0-jre.jar:C:\Users\eikamum\Desktop\PY\selenium-java-3.141.59\libs\okhttp-3.11.0.jar:C:\Users\eikamum\Desktop\PY\selenium-java-3.141.59\libs\okio-1.14.0.jar:C:\Users\eikamum\Desktop\PY\selenium-java-3.141.59\client-combined-3.141.59.jar:C:\Users\eikamum\Desktop\PY\selenium-java-3.141.59\client-combined-3.141.59-sources.jar:C:\Users\eikamum\Desktop\PY\jar_files\jcommander-1.78.jar:C:\Users\eikamum\Desktop\PY\jar_files\jquery-3.5.1.jar:C:\Users\eikamum\Desktop\PY\jar_files\testng-7.4.0.jar org.testng.remote.RemoteTestNG -serport 51176 -protocol json -d C:\Users\eikamum\eclipse-workspace\Revesion\test-output C:\Users\eikamum\eclipse-workspace\Revesion\testng.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-11-03 01:46:47.678
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-11-03 01:46:47.687
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
