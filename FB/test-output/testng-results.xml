@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-10-04T15:45:35 BST" name="Suite" finished-at="2021-10-04T15:45:37 BST" duration-ms="1881">
+  <suite started-at="2021-11-08T01:48:55 GMT" name="Suite" finished-at="2021-11-08T01:49:02 GMT" duration-ms="7048">
     <groups>
     </groups>
-    <test started-at="2021-10-04T15:45:35 BST" name="Test" finished-at="2021-10-04T15:45:37 BST" duration-ms="1881">
+    <test started-at="2021-11-08T01:48:55 GMT" name="Test" finished-at="2021-11-08T01:49:02 GMT" duration-ms="7048">
       <class name="Utilities.Lpage">
-        <test-method signature="Login()[pri:0, instance:Utilities.Lpage@5bd03f44]" started-at="2021-10-04T15:45:35 BST" name="Login" finished-at="2021-10-04T15:45:37 BST" duration-ms="1829" status="FAIL">
+        <test-method signature="Login()[pri:0, instance:Utilities.Lpage@49b0b76]" started-at="2021-11-08T01:48:55 GMT" name="Login" finished-at="2021-11-08T01:49:02 GMT" duration-ms="6974" status="FAIL">
           <exception class="java.lang.NullPointerException">
             <message>
               <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.manage()" because "this.driver" is null]]>
@@ -50,7 +50,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:Utilities.Lpage@5bd03f44]" started-at="2021-10-04T15:45:37 BST" name="teardown" finished-at="2021-10-04T15:45:37 BST" duration-ms="0" status="FAIL">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Utilities.Lpage@49b0b76]" started-at="2021-11-08T01:49:02 GMT" name="teardown" finished-at="2021-11-08T01:49:02 GMT" duration-ms="1" status="FAIL">
           <exception class="java.lang.NullPointerException">
             <message>
               <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.close()" because "this.driver" is null]]>

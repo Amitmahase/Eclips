@@ -22,6 +22,7 @@
 	</section>
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Users\eikamum\eclipse-workspace\FPLOGIN\src\test\resources\Resources\data.properties"/>
 			<item value="C:\Users\eikamum\Mavenjava"/>
 			<item value="C:\Users\eikamum\eclipse-workspace\PageObject\src\ObjectRepositeries\FacebookLoginPagePageObjectFactory.java"/>
 		</list>
@@ -66,12 +67,12 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
-			<item value="Login"/>
+			<item value="API1"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
-			<item value="FPLOGIN"/>
+			<item value="API"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
